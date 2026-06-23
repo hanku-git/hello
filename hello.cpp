@@ -1,23 +1,13 @@
 #include <iostream>
 
-int robot(int in)
-{
-    return in+10;
-}
-
-int add(int a, int b)
-{
-    return a+b;
-}
-
 int sub(int a, int b)
 {
     return a-b;
 }
 
-int mul(int a, int b)
+int add(int a, int b)
 {
-    return a*b;
+    return a+b;
 }
 
 
@@ -31,7 +21,6 @@ int main()
 
     add_test = add(1,2);
     sub_test = sub(2,1);
-    mul_test = mul(2,1);
     
     return 0;
 }
