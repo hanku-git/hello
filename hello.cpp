@@ -10,12 +10,18 @@ int add(int a, int b)
     return a+b;
 }
 
+int dv(int a, int b)
+{
+    return a/b;
+}
+
 
 int main() 
 {
     int add_test = 0;
     int sub_test = 0;
     int  mul_test = 0;
+    int  div_test = 0;
     
     std::cout << "Hello, World!" << std::endl;
 
