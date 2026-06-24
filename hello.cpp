@@ -1,23 +1,23 @@
 #include <iostream>
 
-int func1(int a)
+int insert_ex1(int a)
 {
     return a;
 }
 
-int func2(int a)
+int insert_ex2(int a)
 {
     return a;
 }
 
 int main() 
 {
-    int f1;
+    int e1;
     
     std::cout << "Hello, World!" << std::endl;
 
-    f1 = func1(1);
-    f1 = func2(1);
-        
-    return 0;
+    e1 = insert_ex1(1);
+    e1 = insert_ex2(1);
+    
+    return e1;
 }
