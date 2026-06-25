@@ -20,6 +20,11 @@ int insert_ex4(int a)
     return a;
 }
 
+int insert_ex5(int a)
+{
+    return a;
+}
+
 int main() 
 {
     int e1;
@@ -30,6 +35,7 @@ int main()
     e1 = insert_ex2(1);
     e1 = insert_ex3(1);
     e1 = insert_ex4(1);
-    
+    e1 = insert_ex5(1);
+
     return e1;
 }
